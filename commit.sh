@@ -1,3 +1,3 @@
 cd ~/.vim
 cp ../.vimrc ./ 
-git commit
+git commit -a
