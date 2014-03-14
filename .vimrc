@@ -21,7 +21,7 @@ set number
 "显示行号
 filetype on
 "检测文件的类型
-map :q
+"map :q
 set history=1000
 ""记录历史的行数
 set background=dark
@@ -180,3 +180,7 @@ exec "!gdb %<"
 endfunc
 
 set tags=/home/.vim/tags
+
+"omni completion
+set ofu=syntaxcomplete
+imap <silent> ` <C-X><C-O>
